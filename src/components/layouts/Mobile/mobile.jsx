@@ -16,7 +16,7 @@ export default function Mobile() {
         usertag={insight.userhandle}
         tweetbody={insight.tweetbody}
         profile={insight.profilepic}
-        postimg={insight.postimg}
+        postimg={insight?.postimg}
         />
       ))}
       <BottomNav />

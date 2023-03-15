@@ -1,8 +1,24 @@
 import React from "react";
 import styles from "./tweet.module.css";
-import { FiHeart, FiMessageCircle, FiUpload, FiRepeat, FiMoreHorizontal } from "react-icons/fi";
+import {
+  FiHeart,
+  FiMessageCircle,
+  FiUpload,
+  FiRepeat,
+  FiMoreHorizontal,
+} from "react-icons/fi";
+import { useLike } from "../../../../../hooks/useLike";
 
-export default function Tweet({profile, username, usertag, posttime, tweetbody, postimg}) {
+export default function Tweet({
+  profile,
+  username,
+  usertag,
+  posttime,
+  tweetbody,
+  postimg,
+}) {
+
+  const clicked = useLike()
   return (
     <div className={styles.tweet}>
       <div>
@@ -15,10 +31,12 @@ export default function Tweet({profile, username, usertag, posttime, tweetbody, 
       </div>
       <div>
         <div className={styles.tweet_user}>
+          <div className={styles.tweet_userinfo}>
+            <p className={styles.tweet_user_name}>{username}</p>
+            <span className={styles.tweet_user_tag}>{usertag} </span>
+            <span className={styles.tweet_user_tag}>{posttime}</span>
+          </div>
 
-          <p className={styles.tweet_user_name}>{username}</p>
-          <span className={styles.tweet_user_tag}>{usertag} </span>
-          <span className={styles.tweet_user_tag}>{posttime}</span>
           <FiMoreHorizontal />
         </div>
         <div className={styles.tweet_description}>
@@ -28,12 +46,15 @@ export default function Tweet({profile, username, usertag, posttime, tweetbody, 
         <div className={styles.tweet_icons}>
           <p className={styles.icon}>
             <FiMessageCircle />
+            <span className={styles.stats}>23</span>
           </p>
-          <p className={styles.icon}>
+          <p onClick={clicked} className={styles.icon}>
             <FiRepeat />
+            <span className={styles.stats}>4</span>
           </p>
           <p className={styles.icon}>
             <FiHeart />
+            <span className={styles.stats}>98</span>
           </p>
           <p className={styles.icon}>
             <FiUpload />

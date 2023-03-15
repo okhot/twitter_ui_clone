@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './sidebar.module.css'
 import { FaTwitter } from "react-icons/fa";
 import { FiMoreHorizontal } from "react-icons/fi";
-import Navigation from '../../atoms/Navigation';
 
 export default function Sidebar() {
   return (
@@ -11,7 +10,6 @@ export default function Sidebar() {
         < FaTwitter />
       </div>
       <div>
-        <Navigation />
       </div>
       <div className={styles.sidebar_user}>
         <img className={styles.sidebar_user_image} src='' alt='profile'/>

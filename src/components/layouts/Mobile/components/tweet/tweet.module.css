@@ -20,11 +20,17 @@
 .tweet_user{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0px;
     height: 2px;
     padding: 10px 0px 0px 0px;
     gap: 5px;
 }
+
+.tweet_userinfo{
+    display: flex;
+    align-items: center;
+}tweet_userinfo
 
 .tweet_user_name{
     font-weight: 800;
@@ -47,6 +53,8 @@
     font-size: 20px;
     color: grey;
     padding: 0px 15px 0px 0px;
+    display: flex;
+    align-items: center;
 }
 
 .postimage{
@@ -54,4 +62,9 @@
     width: 100%;
     border-radius: 5px;
     margin-bottom: 15px;
+}
+
+.stats{
+    font-size: 15px;
+    margin-left: 10px;
 }
