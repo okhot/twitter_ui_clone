@@ -1,0 +1,19 @@
+span.icon{
+    font-size: 30px;
+}
+
+.material-symbols-rounded{
+    font-size: 30px;
+}
+
+.bottomnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 7vh;
+    background-color: #fff;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

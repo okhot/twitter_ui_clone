@@ -1,0 +1,30 @@
+.sidebar {
+    width: 20vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.sidebar_user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 50px;
+}
+
+.sidebar_user_details{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar_user_image{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
