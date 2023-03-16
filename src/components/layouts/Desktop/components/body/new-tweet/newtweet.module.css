@@ -1,5 +1,47 @@
+.tweet{
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.09);
+    padding: 20px 10px;
+}
+
+.tweetnew{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 500px;
+}
+
 .profilePic{
     width: 60px;
     height: 60px;
     border-radius: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.tweet_input{
+    border: 0px;
+    font-size: 20px;
+}
+
+.tweet_actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tweet_actions > button{
+    background-color: rgba(0, 0, 211, .40);
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+    border: 0px;
+    font-size: 16px;
+}
+
+.tweet_icons{
+    display: flex;
+    gap: 1rem;
+    color:  rgba(0, 0, 211, .60);
 }

@@ -15,6 +15,7 @@
 .tweet_description{
     margin: 0px;
     line-height: 20px;
+    color: rgb(0, 0, 0, 0.8);
 }
 
 .tweet_user{
@@ -47,10 +48,11 @@
     align-items: center;
     height: 20px;
     justify-content: space-between;
+    max-width: 400px;
 }
 
 .icon{
-    font-size: 20px;
+    font-size: 15px;
     color: grey;
     padding: 0px 15px 0px 0px;
     display: flex;
@@ -58,10 +60,12 @@
 }
 
 .postimage{
-    height: 200px;
+    min-height: 200px;
+    max-height: 300px;
     width: 100%;
     border-radius: 5px;
     margin-bottom: 15px;
+    background-size: contain;
 }
 
 .stats{
