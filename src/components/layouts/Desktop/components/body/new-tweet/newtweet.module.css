@@ -32,7 +32,7 @@
 }
 
 .tweet_actions > button{
-    background-color: rgba(0, 0, 211, .40);
+    background-color:rgb(142,205,248);
     padding: 10px 20px;
     border-radius: 25px;
     color: #fff;
@@ -43,5 +43,5 @@
 .tweet_icons{
     display: flex;
     gap: 1rem;
-    color:  rgba(0, 0, 211, .60);
+    color:  rgb(43,161,241);
 }

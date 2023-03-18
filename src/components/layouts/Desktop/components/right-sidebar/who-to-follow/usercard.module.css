@@ -1,0 +1,41 @@
+.card{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profilepic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.card_details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 250px;
+}
+
+.card_user_details > p{
+    padding: 5px 0px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.card_user_details > span{
+    font-size: 14px;
+    color: gray;
+}
+
+.card_details > button {
+    width: 90px;
+    height: 35px;
+    background-color: black;
+    color: #fff;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 14px;
+}

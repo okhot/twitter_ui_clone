@@ -1,0 +1,18 @@
+.trend{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.trend_card > span{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: rgb(103,118,130);
+}
+
+.trend_card > p {
+    font-weight: 800;
+    margin: 0;
+    padding: 10px 0px;
+}

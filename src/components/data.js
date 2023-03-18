@@ -19,28 +19,81 @@ export const insights = [
         userhandle: '@Youtube',
         profilepic: 'https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s900-c-k-c0x00ffffff-no-rj',
         time: '6h',
-        tweetbody: 'What advice will you give to your younger self'
+        tweetbody: 'What advice will you give to your younger self',
+        postimg: 'https://images.unsplash.com/photo-1678889708089-23e28ff91392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60'
     },
     {
         username: 'Netninja',
         userhandle: '@netninja',
         profilepic: 'https://www.filepicker.io/api/file/JIGkr7PVQeuw9rcBtGuB',
         time: '6h',
-        tweetbody: 'Developers, what would you say to your younger self? 🤔 #coding #codinglife'
+        tweetbody: 'Developers, what would you say to your younger self? 🤔 #coding #codinglife',
+        postimg: 'https://images.unsplash.com/photo-1679136329222-87ccb03f62cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
     },
     {
         username: 'captain-EO',
         userhandle: '@eo_eboh',
         profilepic: 'https://d1fdloi71mui9q.cloudfront.net/byWkC8wrS2KBbYYuuiNO_3Uttg6U0hq9Dbidy',
         time: '6h',
-        tweetbody: 'Avoid putting input validation only on the Frontend. Every input must be validated on the server-side.'
+        tweetbody: 'Avoid putting input validation only on the Frontend. Every input must be validated on the server-side.',
+        postimg: 'https://images.unsplash.com/photo-1679152835160-79b7442f3cbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
     },
     {
         username: 'Arrey',
         userhandle: 'arrey.etta',
         profilepic: 'https://images.unsplash.com/photo-1678733231878-aabd84b58a45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=663&q=80',
         time: '6h',
-        tweetbody: 'What advice will you give to your younger self'
+        tweetbody: 'What advice will you give to your younger self',
+        postimg: 'https://images.unsplash.com/photo-1679108317142-aff8b4bd5ba1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
     },
 
 ]
+
+export const trendData = [
+
+    {
+        topic: 'politics',
+        trend: 'President Musuveni',
+        number: 3646
+    },
+
+    {
+        topic: 'technology',
+        trend: '#100DaysOfCode',
+        number: 3188
+    },
+    {
+        topic: 'technology',
+        trend: 'API',
+        number: 6864
+    },
+
+    {
+        trend: 'Muhoozi',
+        number: 5453
+    },
+
+    {
+        topic: 'only on twitter',
+        trend: '#MissUganda2023',
+        number: 5431
+    },
+    {
+        topic: 'politics',
+        trend: 'Iraq',
+        number: 7854
+    },
+    {
+        topic: 'Technology',
+        trend: 'OpenAI',
+        number: 6544
+    },
+    {
+        topic: 'Technology',
+        trend: 'Google',
+        number: 5592
+    },
+
+
+]
+

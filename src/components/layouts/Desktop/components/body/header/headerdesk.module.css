@@ -4,8 +4,8 @@
 }
 
 .pagename{
-    font-size: 17px;
     font-weight: 800;
+    font-size: 23px;
 }
 
 .nav{
@@ -16,7 +16,7 @@
 
 .nav_text{
     color: rgb(83, 100, 113);
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .nav_text_high{
