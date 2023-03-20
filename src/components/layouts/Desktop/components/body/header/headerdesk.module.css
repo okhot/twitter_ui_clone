@@ -26,3 +26,22 @@
     margin-bottom: 1px;
     border-bottom: 3px solid blue;
 }
+
+.nav > ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.nav>ul> li {
+    width: 50%;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.nav>ul> li:hover{
+
+}

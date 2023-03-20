@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HeaderDesktop from './header/header-desktop'
 import style from './body.module.css'
 import Sidebar from '../sidebar/Sidebar'
@@ -7,9 +7,22 @@ import Tweet from '../../../Mobile/components/tweet/tweet'
 import { insights } from '../../../../data'
 
 export default function Body() {
+
+  const [active, setActive] = useState("tab1")
+
   return (
     <div className={style.body}>
-      <HeaderDesktop />
+
+<div className={style.header}>
+      <div className={style.pagename}>Home</div>
+      <div className={style.nav}>
+        <ul>
+          <li className={active === "tab1" ? "active" : ""}>For You</li>
+          <li className={active === "tab2" ? "active" : ""}>Following</li>
+        </ul>
+    </div>
+    </div>
+
       <NewTweet />
             <Tweet 
         profile= 'https://images.unsplash.com/photo-1678931548103-1e3944b899e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60'

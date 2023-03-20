@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./tweet.module.css";
 import {
   FiHeart,
@@ -8,6 +8,7 @@ import {
   FiMoreHorizontal,
 } from "react-icons/fi";
 import { useLike } from "../../../../../hooks/useLike";
+import { IconContext } from "react-icons";
 
 export default function Tweet({
   profile,
@@ -18,8 +19,17 @@ export default function Tweet({
   postimg,
 }) {
 
-  const clicked = useLike()
+  const [like, setLike] = useState(false)
+
+  function likeFucn (event) {
+    like(event.target.style.fill = 'red')
+    setLike(!like)
+  }
+
   return (
+
+    
+
     <div className={styles.tweet}>
       <div>
         {" "}
@@ -48,12 +58,12 @@ export default function Tweet({
             <FiMessageCircle />
             <span className={styles.stats}>23</span>
           </p>
-          <p onClick={clicked} className={styles.icon}>
+          <p className={styles.icon}>
             <FiRepeat />
             <span className={styles.stats}>4</span>
           </p>
-          <p className={styles.icon}>
-            <FiHeart />
+          <p onClick={likeFucn} className={styles.icon}>
+            <FiHeart style={{ fill: ''}}/>
             <span className={styles.stats}>98</span>
           </p>
           <p className={styles.icon}>
