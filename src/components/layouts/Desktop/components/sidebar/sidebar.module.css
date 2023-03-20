@@ -64,12 +64,13 @@
     font-size: 25px;
 }
 
-.link{
+ .link{
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 15px;
     width: fit-content;
+    color: #fff;
 }
 
 .link:hover{
@@ -85,4 +86,8 @@
     border: 0px;
     font-size: 16px;
     margin-top: 30px;
+}
+
+.darkmode--activated p{
+color: red;
 }

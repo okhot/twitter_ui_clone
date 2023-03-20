@@ -2,6 +2,7 @@
     font-size: 20px;
     border-radius: 50px;
     margin: 0;
+    color: black;
 }
 
 .icon{
@@ -32,4 +33,9 @@
 .link:hover{
     background-color: rgb(247, 249, 249);
     border-radius: 50px;
+}
+
+.darkmode--activated .link > p{
+    color: #fff;
+    background-color: red;
 }

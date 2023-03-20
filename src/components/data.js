@@ -1,5 +1,13 @@
 export const insights = [
     {
+        profilepic: 'https://images.unsplash.com/photo-1678931548103-1e3944b899e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60',
+        username: 'Arrey-Etta',
+        userhandle: '@arreyetta',
+        time:'9h',
+        tweetbody:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos odio eius commodi fugit pariatur placeat soluta amet voluptates. Praesentium eligendi deleniti eius voluptatibus omnis cupiditate ad laborum adipisci dolorum?',
+        postimg: 'https://images.unsplash.com/photo-1678933632108-0ea1b61b2082?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60'
+    },
+    {
         username: 'Brad Traversy',
         userhandle: '@traversymedia',
         profilepic: 'https://yt3.googleusercontent.com/ytc/AL5GRJXycfHq8uGLjANIDAfB6g_wsbEfeKkdWQcDUe73PQ=s900-c-k-c0x00ffffff-no-rj',
